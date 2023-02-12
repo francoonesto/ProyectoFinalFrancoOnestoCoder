@@ -1,0 +1,39 @@
+#body__precios{
+    height: 180vh;
+    background: no-repeat;
+    background-color: $background-principal;
+    overflow-x: hidden;
+}
+#main__precios{
+    height: 150vh;
+    background: no-repeat;
+    background-color:$background-principal;
+    overflow-x: hidden;div{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .table-dark{
+        border: solid 5px black;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: rgb(66, 65, 65);
+    }
+    .lista{
+        padding-top: 10px;
+        border: solid 5px;
+        transform: translateX(-29px);
+    }
+ul{
+    div{
+        li{
+            @include sindecoracion(none,black);
+            }
+        }
+    }
+.mover{padding-top: 35px;}
+}
+
+

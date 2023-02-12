@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#body{
+    height: 170vh;
+    background: no-repeat;
+    background-color: $background-principal!important;
+    overflow-x: hidden;
+}
+    #header{height: 15vh;
+    background: no-repeat;
+    }
+    
+    #main{height: 140vh;
+    background: no-repeat;
+    overflow-x: hidden;
+    }
+    
+    #footer{height: 15vh; 
+    color: $color-font;
+    font-size: $tamano-font +1;
+    font-family:$style-font;
+    background-repeat: no-repeat;  
+    }
+    
+    ul li{
+        transition: all 1s;
+    
+    &:hover{
+        background-color: rgb(61, 61, 61);
+    }
+    }
+    .lista:hover{
+    color: white;
+    transform: scale(0.5);
+    }
+    .carousel-item{
+        width: 100%;
+        height: 75%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: #000;}
+        .image-cover{
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }

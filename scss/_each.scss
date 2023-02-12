@@ -1,0 +1,9 @@
+$clases: (
+colortitulares: white,
+);
+
+@each $nombre, $color in $clases {
+    .#{$nombre} {
+        background-color:$color;
+    }
+}

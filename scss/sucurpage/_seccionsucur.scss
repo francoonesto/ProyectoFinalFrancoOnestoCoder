@@ -1,0 +1,33 @@
+#body__sucursales{
+        height: 190vh;
+        background: no-repeat;
+        background-color: $background-principal!important;
+        overflow-x: hidden;
+    }
+#main__sucursales{
+    height: 160vh;
+    background: no-repeat;
+    background-color: $background-principal!important;
+    overflow-x: hidden;
+    div{
+        ul{
+            li{
+                list-style-type: none;
+                text-decoration: none;
+                color:$color-font;
+            }
+        }
+}
+.bordersuc{border: solid 5px $color-font;}
+.lista1{
+    padding-top: 10px;
+    transition: all 1s;
+
+
+&:hover{
+    background-color: white;
+    }
+}
+.division{padding-top: 25px;}
+.titular{font-weight: bold;font-size: 3rem;}
+}

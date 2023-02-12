@@ -1,0 +1,22 @@
+#body_co{height: 280vh;
+background-color: $background-principal;
+overflow-x: hidden;}
+#main_co{height: 250vh;
+  background-color: $background-principal;
+  overflow-x: hidden;
+    div{h5{
+      color: map-get($paletadecolores,1)
+    }
+      div{.card-img-top {
+        border: solid 3px;
+      }.lead{font-weight: bold;}
+          .card{
+            border: none;
+            background-color: $background-principal;
+          }
+        img{height: 600px;
+}
+}
+}
+}
+

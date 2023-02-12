@@ -1,0 +1,18 @@
+$vista:desktop;
+
+#body_co{
+@if $vista == desktop {
+	@media only screen and (min-width:1400px){
+		h5{font-size:$h1pc;}
+		p{font-size:$parrafopc;}
+		}
+	} @else if $vista == mobile {
+		@media only screen and (max-width:768px){
+			h1{font-size:$h1celular;}
+			p{font-size:$parrafocelular;}
+		}
+	} @else {
+		h1{font-size:2.2rem;}
+		p{font-size:1.8rem;}
+	}
+}

@@ -1,0 +1,5 @@
+@mixin sindecoracion ($null,$color-font) {
+    list-style: $null;
+    text-decoration: $null;
+    color: $color-font;
+}

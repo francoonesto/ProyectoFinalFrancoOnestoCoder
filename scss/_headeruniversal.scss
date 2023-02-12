@@ -1,0 +1,16 @@
+header{
+    nav{color: $color-font;
+        font-size: $tamano-font +0.3;
+        font-family:$style-font;
+        font-weight: $negrita;
+    }
+        div{
+            ul{
+                li{ 
+                    a{
+                        color: $color-font !important;
+                    }
+                }
+            }
+        }
+}
